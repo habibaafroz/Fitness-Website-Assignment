@@ -1,0 +1,608 @@
+/* font 1 */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* font 2 */
+  .grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* shared styles !!! */
+  *{
+    margin: 0;
+  }
+  
+  .container{
+    width: 90%;
+    margin: 4rem auto;
+  }
+  
+  .linear-gradient-bg{
+    background: linear-gradient(180deg, rgb(17,17,17),rgba(129, 129, 129, 0) 100%);
+  }
+  
+  .choto-text{
+    color: rgba(255, 255, 255, 0.5);
+    
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  
+  .red-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+  }
+  /* usage of display:flex */
+  .display-flex{
+    display: flex;
+  }
+  /* header flex used in: .navbar, .nav-links,.full-slide-2 */
+  /* section1 flex used in:  */
+  
+  
+  /* usage of display:grid    .card*/
+  .display-grid{
+    display: grid;
+  }
+  
+  
+  /* colors */
+  .orange{
+    color: rgb(230, 83, 60);
+  }
+  
+  
+  
+  /* header section !!!*/
+  .header{
+  
+    border: 1px solid white;
+  }
+  
+  .fit{
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 1.75rem;
+    /* line-height: 120%; */
+    /* letter-spacing: 0%; */
+    /* text-align: left; */
+  }
+  
+  .ham-menu{
+    display: none;
+  }
+  
+  .nav-item{
+    list-style: none;
+  }
+  
+  .nav-option{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    margin-right: 3rem;
+  
+  }
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn{
+    border-radius: 2.5rem;
+    border: none;
+    position: static;
+    width: 14rem;
+    height: 3.25rem;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .btn2{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* border: 1px solid white; */
+  }
+  
+  .shape{
+    color: rgb(255, 255, 255);
+    font-size: 4.5rem;
+    font-weight: 900;
+    width: 32.5rem;
+    height: 17.5rem;
+    margin-bottom: 1.75rem;
+    /* line-height: 120%;
+    letter-spacing: 0%; */
+    text-align: left;
+  }
+  
+  .choto1{
+    margin-bottom: 1.75rem;
+    width: 32.5rem;
+    height: 3rem;   
+  }
+  
+  .slide1{
+    width: 90%;
+    margin: 4rem auto;
+  }
+  
+  .full-slide-2{
+    
+    width: 90%;
+    margin: 4rem auto;
+  
+  }
+  
+  .card1{
+    /* position: absolute; */
+    /* margin-right: 1rem; */
+  
+    width: 12rem;
+    height: 4rem;
+    left: 69rem;
+    top: 16.25rem;
+    border-radius: .4rem;
+    background: rgba(255,255,255,0.2);
+    /* background: blue; */
+    padding: 1rem;
+    align-items: center;
+  }
+  .card1-500{
+    /* border: 2px solid ; */
+    justify-content: center;
+    align-items: center;
+    width: 7.25rem;
+    height: 2.5rem;
+    left: 70.7rem;
+    top: 17.3px;
+    color: rgb(255, 255, 255);
+    
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    
+  }
+  
+  .card2{
+    /* position: relative;
+    margin-top: -1rem; */
+    width: 12rem;
+    height: 4rem;
+    left: 69rem;
+    top: 16.25rem;
+    border-radius: .4rem;
+    background: rgba(255,255,255,0.2);
+    background: blue;
+    padding: 1rem;
+    align-items: center;
+  }
+  .card2-350{
+    color: rgb(250, 250, 249);
+  
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+    /* letter-spacing: 0.3px; */
+    text-align: left;
+  }
+  .gol{
+    border: 20px solid;
+    border-radius: 50%;
+    margin-right: .5rem;
+    color: red;
+  }
+  .free-videos{
+    justify-content: center;
+    width: 9.1rem;
+    height: 1.25rem;
+    left: 70.7rem;
+    top: 20rem;
+  }
+  
+  /* BODY section start*/
+  /* section2 styles*/
+  .main{
+    background-color: black;
+  }
+  .section2{
+    
+    background-color: black;
+    margin: 100 auto;
+    /* width: 90rem;
+    height: 290.5rem; */
+  
+  }
+  .section2-title{
+    
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    /* border: 2px solid red; */
+    
+  }
+  
+  .change-habits{
+    /* border: 2px solid blue; */
+    padding: 3rem;
+    max-width: 53.1rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .c-card{
+    
+    border-radius: 50%;
+  }
+  .card{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .activity{
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 18px;
+   font-weight: 600;
+   
+  }
+  .activity-description{
+    /* border: 2px solid tomato; */
+    margin-bottom: 4.5rem;
+  }
+  .section2-choto{
+    margin-bottom: 4.5rem;
+  }
+  
+  .card1-exercise{
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card2-exercise{
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card3-exercise{
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card4-exercise{
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* section3 */
+  
+  /* flex used in .section3-div-full */
+  
+  .section3{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62rem;
+    height: 23rem;
+    top: 85.45rem;
+    border-radius: 2rem;
+    background-color: #222222;
+    gap: 30%;
+    left: 16rem;
+    top: 86rem;
+    }
+  
+    .section3-div{
+      width: Fixed (443px)px;
+      height: Hug (290px)px;
+      top: 41px;
+      left: 54px;
+      gap: 34px;
+      opacity: 0px;
+      border: 2px orange;
+      margin: 1px red;
+      height: 20rem;
+      text-align: left;
+  }
+
+.s3title{
+  text-align: left;
+  display: flex;
+  width: 28.75rem;
+  height: 7.25rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+.section3-description{
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+  
+  .sec3-img{
+    width: 366px;
+height: 312px;
+top: 30px;
+left: 662px;
+gap: 0px;
+border-radius: 18px 18px 18px 18px;
+
+opacity: 0px;
+
+  }
+  /* section 4 */
+  
+  
+  /* section 5 */
+  
+  .section5{}
+  
+  .meet-team{
+    
+    width: 60rem;
+  }
+  
+  .section5-top{
+  
+  
+    width: 42rem;
+    height: 7.5rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section5-title{
+    color: white;
+    font-size: 3rem;
+   font-weight: 900;
+  }
+  
+  .section5-description{}
+  
+  .trainers{
+  
+    background-color: rgba(34, 34, 34, 1) ;
+  
+    border-radius: 8px;
+  
+    margin: 0 auto;
+    
+    width: 60rem;
+    height: 50rem;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  .trainer-img{
+  
+    width: 17rem;
+    height: 17rem;
+  }
+  
+  .trainer-name{
+  
+    position: relative;
+    bottom: 20%;
+    left: 5%;
+  }
+  
+  .trainer-occupation{
+    position: relative;
+    bottom: 20%;
+    left: 5%;
+  }
+  
+  .trainer1-img{}
+  
+  
+  .trainer1{
+  
+    margin: 0 auto;
+    margin-top: 10%;
+    position: relative;
+    height: 20rem;
+  }
+  .trainer2{
+  
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 20rem;
+  }
+  .trainer3{
+  
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 20rem;
+  }
+  .trainer4{
+  
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 20rem;
+  }
+  .trainer5{
+  
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 20rem;
+  }
+  .trainer6{
+  
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    height: 20rem;
+  }
+  /* media query */
+  /* mobile */
+  @media screen and (max-width: 576px){ 
+    
+    /* slide1 */
+    .navbar, .nav-links,.full-slide-2{
+      flex-direction: column;
+    }
+  
+    .buttons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header{
+      margin-right: 0;
+    }
+    .shape{
+      /* border: 2px solid; */
+      color: rgb(255, 255, 255);
+      font-size: 2.5rem;
+      font-weight: 900;
+      width: 16.5rem;
+      height: 10.5rem;
+      /* margin-bottom: .5rem; */
+      /* line-height: 120%;
+      letter-spacing: 0%; */
+      text-align: left; 
+    }
+  
+    .choto1{
+      margin-bottom: 1rem;
+      width: 22.5rem;
+      height: 3rem;   
+    }
+  
+    .fitness{
+      /* border: 2px solid; */
+      width: 75%;
+      text-align: left;
+      
+  
+    }
+    .nav-links{
+      display: none;
+    }
+  
+    /* .ham-menu{
+      width: 50%;
+      margin-left: auto;
+      position: relative;
+    } */
+  
+    /* .ham-menu span{
+      border: 2px solid;
+      height: 5px;
+      width: 10%;
+      background-color: white;
+      border-radius: 25px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: .3s ease;
+    } */
+  
+    .ham-menu span:nth-child(1){
+      top: 25%;
+  
+    }
+    .ham-menu span:nth-child(3){
+      top: 75%;
+  
+    }
+  
+    .nav-nav{
+      border: 2px solid;
+      /* display: flex;  */
+      /* justify-content: center;
+      align-items: center; */
+    } 
+  
+  /* slide2 */
+  .card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+  
+  }
+  .activity-description{
+    
+    text-align: center;
+  }
+  .section2-title{
+    font-size: 2.5rem;
+  }
+  
+  .section2-choto{
+    font-size: .3rem;
+  
+  }
+  /* section3 */
+  .section3-div-full{
+    flex-direction: column;
+    width: 24rem;
+  }
+  .section3{
+   
+    width: 24rem;
+    height: 37rem;
+  }
+  .section3-div{
+    
+    width: 24rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .section3-title{
+   
+    width: 24rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  
+  /* section 5 */
+  
+  .section5-top{
+    width: 24rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .trainers{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 24rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    height: 100rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 0;
+    border-top: 0;
+    }
+  
+    .trainer5, .trainer6{
+      display: none;}
+  
+  }
+  
+  .section5{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
